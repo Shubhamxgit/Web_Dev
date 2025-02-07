@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    width: 100vw;
+}
+.cir1{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    border-radius: 100%;
+    border: solid 8px aliceblue;
+    border-top: solid 8px aqua;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
