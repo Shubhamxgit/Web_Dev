@@ -100,9 +100,33 @@
 // }
 // func(0)
 
-//Fibonacci
-function fibbo(x){
-    if(x == 0 || x==1) return x;
-    else return fibbo(x-1) + fibbo(x-2);
-}
-console.log("The fibbonaci of 45 is ", fibbo(45))
+// //Fibonacci
+// function fibbo(x){
+//     if(x == 0 || x==1) return x;
+//     else return fibbo(x-1) + fibbo(x-2);
+// }
+// console.log("The fibbonaci of 45 is ", fibbo(45))
+
+// // Scope 
+// var teacher = "Sanket";
+// function fun(){
+//     var teacher = "Modi";
+//     autoglobal="hello"
+//     console.log(teacher);   //It will print the variable in function scope 
+// }
+// function fun2(){
+//     var student = "Shubh";
+//     console.log(student);   //print variable in function scope 
+// }
+// //here if we write console.log(autoglobal)
+// fun()
+// fun2()
+// console.log(teacher)               //print varibale in global scope
+
+
+//Array in JS
+let a = ["Shubham", 35, 85, "male", 1.99, false];
+console.log(a);
+let b = new Array(10)
+console.log(b)
+console.log(a[5], a[0])
